@@ -11,7 +11,7 @@ class SGDOptimizer():
         self.learningRate = learningRate
         self.amountEpochs = amountEpochs
         self.shuffle = shuffle
-        self.updateMechannism = updateMechannism
+        self.updateMechanism = updateMechannism
 
     def optimizer(self, network: NeuralNetwork, data):
         pass

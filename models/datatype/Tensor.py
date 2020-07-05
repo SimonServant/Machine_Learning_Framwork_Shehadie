@@ -1,5 +1,6 @@
 from models.datatype import Shape
-import numpy as np
+
+
 class Tensor:
     def __init__(self, elements, shape: Shape = None):
         self.elements = elements
@@ -7,6 +8,6 @@ class Tensor:
         # arrays to matrices and vice versa
         self.shape = shape
         self.deltas = []
-    
+
     def setDeltas(self, deltas):
         self.deltas = deltas
